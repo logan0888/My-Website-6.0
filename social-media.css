@@ -1,0 +1,39 @@
+.header-main {
+    font-family: New Amsterdam, cursive;
+  }
+
+  .sm-box {
+    min-height: 590px;
+    max-width: 72%;
+    background-color: var(--grey_background);
+    float: right;
+    position: relative;
+    bottom: 36.8rem;
+    margin-bottom: -600px;
+    border: 2px solid #17202a;
+    border-radius: 15px;
+    display: grid;
+    justify-content: center;
+    row-gap: 2rem;
+    grid-template-columns: repeat(2, 10fr);
+  }
+
+  .github {
+    width: 100%;
+    height: 100%;
+    }
+    
+    .instagram {
+    width: 100%;
+    height: 100%;
+    }
+
+    .internet-archive {
+        width: 75%;
+        height: 75%;
+    }
+
+    .stack-overflow {
+        width: 100%;
+        height: 100%;
+    }
