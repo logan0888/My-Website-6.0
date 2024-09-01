@@ -1,0 +1,72 @@
+.header-main {
+    font-family: New Amsterdam, cursive;
+  }
+  
+  .project-box {
+    min-height: 590px;
+    max-width: 72%;
+    background-color: var(--grey_background);
+    float: right;
+    position: relative;
+    bottom: 36.8rem;
+    margin-bottom: -600px;
+    border: 2px solid #17202a;
+    border-radius: 15px;
+    display: grid;
+    justify-content: center;
+    row-gap: 2rem;
+    grid-template-rows: repeat(4, 0.2fr);
+  }
+  
+  .project-box-title {
+    max-height: 3.5rem;
+    margin-top: 0.2rem;
+    line-height: 1rem;
+    font-size: 1.1rem;
+    text-align: center;
+    border-bottom: 2px solid #17202a;
+    font-family: cursive, georgia;
+    padding-left: 4px;
+    padding-right: 4px;
+  }
+  
+  .this-website-box {
+    background-color: var(--guides_box_background);
+    margin-left: 0.2rem;
+    margin-right: 0.2rem;
+    border: 2px solid #17202a;
+    border-radius: 10px;
+    display: grid;
+    grid-template-rows: repeat(2, 0.17fr);
+  }
+  
+  .this-website-title {
+    text-align: center;
+    color: var(--button_txt_color);
+    font-size: 1.5rem;
+    padding-top: 0.2rem;
+    line-height: 2rem;
+    font-family: fantasy, cursive;
+  }
+  
+  .this-website-description {
+    text-align: center;
+    color: #f0f3f4;
+    font-size: 0.9rem;
+    line-height: 1.5rem;
+    font-family: fantasy, cursive;
+  }
+  
+  .this-website-button {
+    margin-left: 3rem;
+    margin-right: 3rem;
+    color: #f0f3f4;
+    background-color: var(--button_background);
+    text-align: center;
+    font-size: 1rem;
+    border-top: 2px solid #17202a;
+    border-right: 2px solid #17202a;
+    border-left: 2px solid #17202a;
+    border-radius: 15px;
+    font-family: fantasy, cursive;
+  }
