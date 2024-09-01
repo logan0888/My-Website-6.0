@@ -1,0 +1,41 @@
+.header-main {
+    font-family: New Amsterdam, cursive;
+  }
+
+  .about-me-box {
+    min-height: 590px;
+    max-width: 72%;
+    background-color: var(--grey_background);
+    float: right;
+    position: relative;
+    bottom: 36.8rem;
+    margin-bottom: -600px;
+    border: 2px solid #17202a;
+    border-radius: 15px;
+    display: grid;
+    justify-content: center;
+    row-gap: 1rem;
+    grid-template-rows: repeat(2, 0.2fr);
+   
+ 
+}
+
+.about-me-title {
+  max-height: 3.5rem;
+  margin-top: 0.5rem;
+  line-height: 1rem;
+  font-size: 1.5rem;
+  text-align: center;
+  border-bottom: 2px solid #17202a;
+  font-family: cursive, georgia;
+  padding-left: 4px;
+  padding-right: 4px; 
+}
+
+.text-box {
+    background-color: var(--grey_background);
+    margin-left: 0.2rem;
+    margin-right: 0.2rem;
+    font-size: 1.01rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
