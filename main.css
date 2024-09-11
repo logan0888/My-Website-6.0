@@ -105,3 +105,59 @@
     font-size: 1.2rem;
     font-family: cursive;
   }
+
+  @media only screen and (min-height: 760px) {
+    .navbar{
+     height: 42rem;
+    }
+ }
+ @media only screen and (min-height: 800px) {
+     .navbar{
+         height: 45rem;
+        }
+ }
+  @media only screen and (min-height: 810px) {
+     .navbar {
+         height: 45.5rem;
+     }
+  }
+  @media only screen and (min-height: 844px) {
+     .navbar{
+         height: 47.5rem;
+     }
+  }
+  @media only screen and (min-height: 854px) {
+     .navbar {
+         height: 48.5rem;
+     }
+  }
+  @media only screen and (min-height: 883px) {
+     .navbar {
+         height: 50rem;
+     }
+  }
+  @media only screen and (min-height: 896px) {
+     .navbar {
+         height: 51rem;
+     }
+  }
+  @media only screen and (min-height: 915px) {
+     .navbar {
+         height: 52rem;
+     }
+  }
+  @media only screen and (min-height: 926px) {
+     .navbar {
+         height: 830px;
+     }
+  }
+  @media only screen and (min-height: 1080px) {
+     .navbar {
+         height: 985px;
+     }
+  }
+  @media only screen and (min-height: 1280px) {
+     .navbar-main {
+         height: 1185px;
+     }
+  }
